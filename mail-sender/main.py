@@ -23,7 +23,9 @@ def send_message(service, destination, obj, body, attachments=None):
     ).execute()
 
 
-def build_message(destination, obj, body, attachments=[]):
+def build_message(destination, obj, body, attachments=None):
+    if attachments is None:
+        attachments = []
     if not attachments:  # no attachments given
         message = MIMEText(body)
         message['to'] = destination
