@@ -9,6 +9,13 @@ SCOPES = ['https://mail.google.com/']
 our_email = 'your_gmail@gmail.com'
 
 
+def send_message(service, destination, obj, body, attachments=[]):
+    return service.users().messages().send(
+      userId="me",
+      body=build_message(destination, obj, body, attachments)
+    ).execute()
+
+
 def build_message(destination, obj, body, attachments=[]):
     if not attachments: # no attachments given
         message = MIMEText(body)
