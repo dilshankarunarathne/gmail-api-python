@@ -38,5 +38,6 @@ def gmail_authenticate():
             pickle.dump(creds, token)
     return build('gmail', 'v1', credentials=creds)
 
+
 # get the Gmail API service
 service = gmail_authenticate()
