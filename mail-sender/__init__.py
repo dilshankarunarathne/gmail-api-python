@@ -15,7 +15,7 @@ our_email = 'maleeshasparrow@gmail.com'
 
 # Check credentials
 if os.path.exists('../secrets/credentials.json'):
-
+    
 
 
 def gmail_authenticate():
