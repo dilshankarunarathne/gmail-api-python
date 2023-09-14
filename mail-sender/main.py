@@ -2,8 +2,8 @@ import os
 
 # for encoding/decoding messages in base64
 from base64 import urlsafe_b64encode
-from email.mime.multipart import MIMEMultipart
 # for dealing with attachment MIME types
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from mimetypes import guess_type as guess_mime_type
 from email.mime.image import MIMEImage
