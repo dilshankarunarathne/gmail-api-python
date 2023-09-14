@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 from mimetypes import guess_type as guess_mime_type
 from email.mime.image import MIMEImage
 from email.mime.audio import MIMEAudio
+from email.mime.base import MIMEBase
 
 # Request all access (permission to read/send/receive emails, manage the inbox, and more)
 SCOPES = ['https://mail.google.com/']
