@@ -14,7 +14,9 @@ SCOPES = ['https://mail.google.com/']
 our_email = 'your_gmail@gmail.com'
 
 
-def send_message(service, destination, obj, body, attachments=[]):
+def send_message(service, destination, obj, body, attachments=None):
+    if attachments is None:
+        attachments = []
     return service.users().messages().send(
       userId="me",
       body=build_message(destination, obj, body, attachments)
