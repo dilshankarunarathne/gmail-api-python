@@ -1,3 +1,6 @@
+
+
+
 def build_message(destination, obj, body, attachments=[]):
     if not attachments: # no attachments given
         message = MIMEText(body)
