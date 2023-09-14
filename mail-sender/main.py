@@ -22,7 +22,7 @@ def send_message(service, destination, obj, body, attachments=[]):
 
 
 def build_message(destination, obj, body, attachments=[]):
-    if not attachments: # no attachments given
+    if not attachments:  # no attachments given
         message = MIMEText(body)
         message['to'] = destination
         message['from'] = our_email
