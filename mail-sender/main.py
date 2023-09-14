@@ -11,7 +11,7 @@ from email.mime.base import MIMEBase
 
 # Request all access (permission to read/send/receive emails, manage the inbox, and more)
 SCOPES = ['https://mail.google.com/']
-our_email = 'your_gmail@gmail.com'
+our_email = 'maleeshasparrow@gmail.com'
 
 
 def send_message(service, destination, obj, body, attachments=None):
