@@ -3,6 +3,7 @@ from base64 import urlsafe_b64encode
 from email.mime.multipart import MIMEMultipart
 # for dealing with attachment MIME types
 from email.mime.text import MIMEText
+from mimetypes import guess_type as guess_mime_type
 
 # Request all access (permission to read/send/receive emails, manage the inbox, and more)
 SCOPES = ['https://mail.google.com/']
