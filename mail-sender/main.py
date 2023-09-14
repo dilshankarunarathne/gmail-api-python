@@ -9,7 +9,7 @@ from email.mime.image import MIMEImage
 from email.mime.audio import MIMEAudio
 from email.mime.base import MIMEBase
 
-
+from __init__ import our_email
 
 
 def send_message(service, destination, obj, body, attachments=None):
