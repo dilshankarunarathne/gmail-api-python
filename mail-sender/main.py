@@ -9,10 +9,6 @@ from email.mime.image import MIMEImage
 from email.mime.audio import MIMEAudio
 from email.mime.base import MIMEBase
 
-# Request all access (permission to read/send/receive emails, manage the inbox, and more)
-SCOPES = ['https://mail.google.com/']
-our_email = 'maleeshasparrow@gmail.com'
-
 
 def send_message(service, destination, obj, body, attachments=None):
     if attachments is None:
