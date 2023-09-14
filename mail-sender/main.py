@@ -26,13 +26,6 @@ def build_message(destination, obj, body, attachments=[]):
     return {'raw': urlsafe_b64encode(message.as_bytes()).decode()}
 
 
-def send_message(service, destination, obj, body, attachments=[]):
-    return service.users().messages().send(
-      userId="me",
-      body=build_message(destination, obj, body, attachments)
-    ).execute()
-
-
 # Adds the attachment with the given filename to the given message
 def add_attachment(message, filename):
     content_type, encoding = guess_mime_type(filename)
