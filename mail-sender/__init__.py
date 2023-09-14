@@ -13,7 +13,7 @@ from googleapiclient.discovery import build
 SCOPES = ['https://mail.google.com/']
 our_email = 'maleeshasparrow@gmail.com'
 
-
+# Check credentials
 
 
 def gmail_authenticate():
