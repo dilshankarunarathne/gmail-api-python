@@ -1,5 +1,4 @@
 # for encoding/decoding messages in base64
-import os
 from base64 import urlsafe_b64encode
 from email.mime.multipart import MIMEMultipart
 # for dealing with attachment MIME types
