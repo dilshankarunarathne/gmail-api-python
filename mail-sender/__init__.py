@@ -42,3 +42,5 @@ def gmail_authenticate():
 try:
     service = gmail_authenticate()
 except Exception as e:
+    print("Error: ", e)
+    exit()
