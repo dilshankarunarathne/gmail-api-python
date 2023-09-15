@@ -18,7 +18,7 @@ from __init__ import service as auth_service
 
 def send_message(destination, obj, body, attachments=None, service=auth_service):
     """
-
+    
     :param destination: the email address of the recipient
     :param obj: the subject of the email
     :param body: the body of the email
