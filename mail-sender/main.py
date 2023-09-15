@@ -16,7 +16,7 @@ from __init__ import our_email
 from __init__ import service as auth_service
 
 
-def send_message(destination, obj, body, attachments=None, service=auth_service
+def send_message(destination, obj, body, attachments=None, service=auth_service):
     if attachments is None:
         attachments = []
     return service.users().messages().send(
