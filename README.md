@@ -27,7 +27,9 @@ pip install gmail-api-python
 from gmail_api_python import Gmail
 ```
 
+### Sending an Email
 
+```python
 
 
 ## Contributing
