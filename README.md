@@ -24,6 +24,8 @@ pip install gmail-api-python
 ### Importing
 
 ```python
+from gmail_api_python import Gmail
+```
 
 
 ## Contributing
