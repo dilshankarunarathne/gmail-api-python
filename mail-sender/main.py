@@ -24,7 +24,7 @@ def send_message(destination, obj, body, attachments=None, service=auth_service)
     :param body: the body of the email
     :param attachments: a list of attachments
     :param service: the Gmail API service instance
-    :return:
+    :return: the message object, if successful, otherwise None
     """
     if attachments is None:
         attachments = []
