@@ -15,9 +15,7 @@ A Python package that can be used to work with the Gmail API of Google Cloud. Th
 
 ## Usage
 
-### Installation
 
-```bash
 
 
 ## Contributing
