@@ -17,7 +17,15 @@ from __init__ import service as auth_service
 
 
 def send_message(destination, obj, body, attachments=None, service=auth_service):
+    """
     
+    :param destination:
+    :param obj:
+    :param body:
+    :param attachments:
+    :param service:
+    :return:
+    """
     if attachments is None:
         attachments = []
     return service.users().messages().send(
