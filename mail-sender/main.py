@@ -20,7 +20,7 @@ def send_message(destination, obj, body, attachments=None, service=auth_service)
     """
 
     :param destination: the email address of the recipient
-    :param obj:
+    :param obj: the subject of the email
     :param body:
     :param attachments:
     :param service:
