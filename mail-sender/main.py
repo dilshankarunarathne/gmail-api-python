@@ -13,7 +13,7 @@ from email.mime.base import MIMEBase
 from mimetypes import guess_type as guess_mime_type
 
 from __init__ import our_email
-from __init__ import service as 
+from __init__ import service as auth_service
 
 
 def send_message(service, destination, obj, body, attachments=None):
