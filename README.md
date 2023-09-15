@@ -32,7 +32,7 @@ from gmail_api_python import Gmail
 ```python
 from gmail_api_python import main.send_message
 send_message(
-    '', obj, body, attachments=None, service=auth_service
+    '', '', body, attachments=None, service=auth_service
 )
 ```
 
