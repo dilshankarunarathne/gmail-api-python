@@ -34,7 +34,7 @@ from gmail_api_python import main.send_message
 send_message(
     'destination@mail.com',  # destination email address
     'subject',  # subject of the email
-    'the body'
+    'the body'  # body of the email
 )
 ```
 
