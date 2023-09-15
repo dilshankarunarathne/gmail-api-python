@@ -12,6 +12,7 @@ from googleapiclient.discovery import build
 # Request all access (permission to read/send/receive emails, manage the inbox, and more)
 SCOPES = ['https://mail.google.com/']
 our_email = 'maleeshasparrow@gmail.com'
+service = None
 
 # Check credentials
 if os.path.exists('../secrets/credentials.json'):
