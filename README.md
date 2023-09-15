@@ -33,7 +33,7 @@ from gmail_api_python import Gmail
 from gmail_api_python import main.send_message
 send_message(
     'destination@mail.com',  # destination email address
-    'subject', 
+    'subject',  # subject of the email
     'the body'
 )
 ```
