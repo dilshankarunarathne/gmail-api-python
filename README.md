@@ -27,12 +27,7 @@ pip install gmail-api-python
 from gmail_api_python import Gmail
 ```
 
-### Authentication
 
-```python
-gmail = Gmail()
-gmail.authenticate()
-```
 
 
 ## Contributing
