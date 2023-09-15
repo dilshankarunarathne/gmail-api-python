@@ -15,6 +15,7 @@ from mimetypes import guess_type as guess_mime_type
 from __init__ import our_email
 
 
+
 def send_message(service, destination, obj, body, attachments=None):
     if attachments is None:
         attachments = []
