@@ -157,3 +157,4 @@ cython_debug/
 #.idea/
 secrets/client_secret_576178351324-dm2gkdo78gl9metsofns3dehoasfrd4g.apps.googleusercontent.com.json
 mail-sender/token.pickle
+secrets/token.pickle
