@@ -17,7 +17,8 @@ from __init__ import service as auth_service
 
 
 """
-    
+Sends an email message.
+
 """
 def send_message(destination, obj, body, attachments=None, service=auth_service):
     if attachments is None:
