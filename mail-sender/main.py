@@ -19,7 +19,7 @@ from __init__ import service as auth_service
 def send_message(destination, obj, body, attachments=None, service=auth_service):
     """
 
-    :param destination: 
+    :param destination: the email address of the recipient
     :param obj:
     :param body:
     :param attachments:
