@@ -30,7 +30,8 @@ from gmail_api_python import Gmail
 ### Sending an Email
 
 ```python
-from gmail_api_python import Gmail
+from gmail_api_python import main.send_message
+
 
 
 ## Contributing
