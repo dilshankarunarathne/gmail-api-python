@@ -31,6 +31,8 @@ from gmail_api_python import Gmail
 
 ```python
 gmail = Gmail()
+gmail.authenticate()
+```
 
 
 ## Contributing
