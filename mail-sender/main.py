@@ -23,7 +23,7 @@ def send_message(destination, obj, body, attachments=None, service=auth_service)
     :param obj: the subject of the email
     :param body: the body of the email
     :param attachments: a list of attachments
-    :param service:
+    :param service: the Gmail API service instance
     :return:
     """
     if attachments is None:
