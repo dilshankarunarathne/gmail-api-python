@@ -24,13 +24,13 @@ pip install gmail-api-python
 ### Importing
 
 ```python
-from gmail_api_python import main.send_message
+from gmail_api_python import mail-sender.main.send_message
 ```
 
 ### Sending an Email
 
 ```python
-from gmail_api_python import main.send_message
+from gmail_api_python import mail-sender.main.send_message
 send_message(
     'destination@mail.com',  # destination email address
     'subject',  # subject of the email
