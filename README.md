@@ -10,7 +10,7 @@ A Python package that can be used to work with the Gmail API of Google Cloud. Th
 - [Python](https://www.python.org/) 3.7 or higher (tested with Python 3.11)
 - [pip](https://pip.pypa.io/en/stable/) 20.0 or higher
 - [google-api-python-client](https://github.com/googleapis/google-api-python-client)
-- [google-auth-httplib2]()
+- [google-auth-httplib2](https://pypi.org/project/google-auth-httplib2/)
 
 
 ## Contributing
