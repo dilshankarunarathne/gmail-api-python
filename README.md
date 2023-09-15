@@ -30,6 +30,7 @@ from gmail_api_python import Gmail
 ### Authentication
 
 ```python
+gmail = Gmail()
 
 
 ## Contributing
